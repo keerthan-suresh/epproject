@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -56,12 +57,16 @@ body{
 .navbar a:hover::before{
     width: 100%;
 }
-
+.navbar a.active{
+    
+}
 .maintext{
     font-family: 'Poppins';
     color: white;
     padding-top: 250px;
     padding-left: 100px;
+    min-height: 100vh;
+    border-bottom: 1px solid #fff;
 
 }
 .Text{
@@ -95,3 +100,10 @@ body{
     from{width:0}
 }
 
+#Contact{
+    min-height: 100vh;
+    background: url('gradient1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}

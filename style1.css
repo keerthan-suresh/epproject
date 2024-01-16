@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
 }
 
-body{
+#Home{
     min-height: 100vh;
     background: url('gradient.jpg') no-repeat;
     background-size: cover;
@@ -57,9 +57,9 @@ body{
 .navbar a:hover::before{
     width: 100%;
 }
-.navbar a.active{
+/* .navbar a.active{
     
-}
+} */
 .maintext{
     font-family: 'Poppins';
     color: white;
@@ -101,6 +101,28 @@ body{
 }
 
 #Contact{
+    min-height: 100vh;
+    background: url('gradient1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#About{
+    min-height: 100vh;
+    background: url('gradient1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+#Services{
+    min-height: 100vh;
+    background: url('gradient1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+#Gallery{
     min-height: 100vh;
     background: url('gradient1.jpg') no-repeat;
     background-size: cover;

@@ -4,17 +4,25 @@
 }
 
 body{
-    background: lightblue;
+    background: #E2DFD2;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
+}
+
+#hello{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
 }
 .container{
     width:80%;
     margin:50px auto;
-}
+  }
+  
+
 .contact-box{
     background: white;
     display: flex;
+    border-radius: 10px;
 }
 
 .contact-left{
@@ -25,8 +33,9 @@ body{
 .contact-right{
     flex-basis: 40%;
     padding:40px;
-    background-color: blue;
+    background-color:#232B2B;
     color: white;
+    border-radius: 10px;
 }
 
 h1{
@@ -64,11 +73,15 @@ textarea{
 label{
     margin-bottom: 6px;
     display:block;
-    color:#1c00b5;    /*colour of the texts name,phone,email etc*/
+    color:#0B0510;    /*colour of the texts name,phone,email etc*/
+}
+
+#sentur{
+    color:#0B0510;
 }
 
 button{
-    background:#1c00b5;  /*color of send button*/
+    background:#232B2B;  /*color of send button*/
     width: 100px;
     border:none;
     outline: none;
@@ -96,4 +109,9 @@ tr td:first-child{
 }
 tr td{
     padding-top: 20px;
+}
+
+#callright{
+    margin-top: 50px;
+    font-family: 'Josefin Sans', sans-serif;
 }

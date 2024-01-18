@@ -10,7 +10,7 @@
     background: url('gradient.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-
+    mix-blend-mode: overlay;
 }
 
 .header{
@@ -108,9 +108,17 @@
     
 }
 
+.contact-heading{
+    padding-top: 150px;
+    padding-left: 150px;
+    font-family: 'josefin sans';
+    font-weight: 700;
+    font-size: 40px;
+}
+
 #About{
     min-height: 100vh;
-    background: url('gradient1.jpg') no-repeat;
+    background: url('gradient-purple-white-linear-1280x720-c2-6a5acd-ffffff-a-315-f-14.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     
@@ -129,3 +137,5 @@
     background-position: center;
     
 }
+
+

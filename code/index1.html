@@ -8,16 +8,22 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <a href="#" class="logo">vinayaka enterprises</a>
         <nav class="navbar">
-            <a href="index1.html">Home</a>
-            <a href="about.html">About</a>
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
             <a href="#Gallery">Gallery</a>
             <a href="#Services">Services</a>
-            <a href="#Contact">Contact</a>
+            <a href="#contact">Contact</a>
+            
+            </href>
         </nav>
     </header>
 
@@ -28,6 +34,13 @@
         </div>
     </section>    
 
+    <section id="About">
+        <div id="aboutcontainer">
+            <p class="Text">A B O U T<br>V I N A Y A K A<br>E N T E R P R I S E S</br></p>
+            <img id="aboutimg" src="/images/aboutimg.jpg" alt="">
+        </div>
+    </section>
+
     <div id="Gallery">
         <h1>gallery starts here</h1>
     </div>
@@ -36,8 +49,70 @@
         <h1>services starts here</h1>
     </div>
 
-    <div id="Contact">
-        <h1>contact starts here</h1>
+    <section id="contact">
+        <div class="container">
+            <h1 id="hello">Say hello.</h1>
+            <p>We would love to hear from you.</p>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3 id="sentur">request a demo</h3>
+                    <form>
+                        <div class="input-row">
     
-    </div>
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" placeholder="Keerthan">
+                            </div>
+                            <div class="input-group">
+                                <label>Phone</label>
+                                <input type="text" placeholder="+9945243336">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                        
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="text" placeholder="kes21ec@cmrit.ac.in">
+                            </div>
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="text" placeholder="Product demo">
+                            </div>
+                        </div>
+    
+                        <label >Message</label>
+                        <textarea rows="5" placeholder="Your Message"></textarea>
+    
+                        <button type="Submit">SEND</button>
+                    </form>
+    
+    
+                </div>
+                <div class="contact-right">
+                    <h3>reach us</h3>
+    
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td>vinaykaprintskarthik@gmail.com</td>
+                        </tr>
+    
+                        <tr>
+                            <td>Phone</td>
+                            <td>9036733628</td>
+                        </tr>
+    
+                        <tr>
+                            <td>Address</td>
+                            <td>#10, 5th Cross, 10th main KP, Agrahara, Magadi Road, Bangalore 560023</td>
+                        </tr>
+                    </table>
+    
+                    <h2 id="callright">Give us a call<br>or Pay us a visit.</h2>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    
 </body>

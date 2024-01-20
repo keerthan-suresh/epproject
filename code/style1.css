@@ -7,7 +7,7 @@
 
 #Home{
     min-height: 100vh;
-    background: url('/images/gradient.jpg') no-repeat;
+    background: url('/images/design-space-paper-textured-background_53876-144711.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     mix-blend-mode: overlay;
@@ -29,7 +29,7 @@
 
 .logo{
     font-size: 20px;
-    color: #fff;
+    color: #232B2B;
     text-decoration: none;
     font-weight: 200;
 }
@@ -37,7 +37,7 @@
 .navbar a {
     position: relative;
     font-size: 18px;
-    color: #fff;
+    color: #232B2B;
     font-weight: 400;
     text-decoration: none;
     margin-left: 40px;
@@ -62,7 +62,7 @@
 } */
 .maintext{
     font-family: 'Poppins';
-    color: white;
+    color: black;
     padding-top: 250px;
     padding-left: 100px;
     min-height: 100vh;

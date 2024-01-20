@@ -107,6 +107,13 @@
     
 }
 
+#Gallery{
+    min-height: 100vh;
+    background: url('/images/gradient-purple-white-linear-1280x720-c2-6a5acd-ffffff-a-315-f-14.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
 
 #About{
     min-height: 100vh;
@@ -117,13 +124,6 @@
 }
 
 #Services{
-    min-height: 100vh;
-    background: url('/images/gradient-purple-white-linear-1280x720-c2-6a5acd-ffffff-a-315-f-14.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-    
-}
-#Gallery{
     min-height: 100vh;
     background: url('/images/gradient-purple-white-linear-1280x720-c2-6a5acd-ffffff-a-315-f-14.jpg') no-repeat;
     background-size: cover;

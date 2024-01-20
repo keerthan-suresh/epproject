@@ -13,13 +13,27 @@
     mix-blend-mode: overlay;
 }
 
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
 .header{
     position:fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background: transparent;
+    background: #232B2B;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,12 +46,13 @@
     color: #232B2B;
     text-decoration: none;
     font-weight: 200;
+    color: white;
 }
 
 .navbar a {
     position: relative;
     font-size: 18px;
-    color: #232B2B;
+    color: white;
     font-weight: 400;
     text-decoration: none;
     margin-left: 40px;
@@ -109,7 +124,7 @@
 
 #Gallery{
     min-height: 100vh;
-    background: url('/images/gradient-purple-white-linear-1280x720-c2-6a5acd-ffffff-a-315-f-14.jpg') no-repeat;
+    background-color: #b7a684;
     background-size: cover;
     background-position: center;
     
@@ -144,3 +159,4 @@
     padding: 0 0 5% 5%;
     margin: 10% 5% 0 0;
 }
+

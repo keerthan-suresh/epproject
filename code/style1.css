@@ -7,7 +7,7 @@
 
 #Home{
     min-height: 100vh;
-    background: url('/images/design-space-paper-textured-background_53876-144711.jpg') no-repeat;
+    background: url('/images/40-402760_light-color-background-for-website.jpg') no-repeat; 
     background-size: cover;
     background-position: center;
     mix-blend-mode: overlay;
@@ -84,6 +84,7 @@ body::-webkit-scrollbar-track {
 }
 .Text{
     font-size: 50px;
+    color: black;
 
 }
 
